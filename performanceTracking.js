@@ -92,7 +92,7 @@ function opened() {
   identifyOccurrenceHeadingIndices();
   var uniqueIssueIds = [];
   for (var i = occurrenceDataValues.length - 1; i >= 1; i--) {
-    var eventIssueId = occurrenceDataValues[i][occurrenceHeadingIndices["Issue ID"]];
+    var eventIssueId = parseInt(occurrenceDataValues[i][occurrenceHeadingIndices["Issue ID"]]);
     if (uniqueIssueIds.indexOf(eventIssueId) == -1) {
       uniqueIssueIds.push(parseInt(eventIssueId));
     }
