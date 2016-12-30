@@ -87,6 +87,7 @@ function edited(eventData) {
   }
 }
 
+
 function opened() {
   identifyIssueHeadingIndices();
   identifyOccurrenceHeadingIndices();
