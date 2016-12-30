@@ -1,0 +1,21 @@
+x change "summary" to "issue name" on issue information sheet
+- hitting "x" on prompts should abort the process
+- adjust generated occurences to only include the n highest priority issues
+- generate a "closeout date" that's logged the moment an issue's status changes to "maintain" or "revisit"
+x add columns for issue data
+	x corrective action
+	x pass-fail criteria
+x "success rate" --> "progress"
+	x 0-100%
+	x max(actual SR, target SR)/target SR * max(actual games played, target games played)/target games played
+	x color scaling and size scaling bar in cell format
+- add champion & role selections on issue submission and a occurence generation filter based on those parameters
+- change formatting on status column
+	- TBD = white
+	- improve = yellow
+	- revisit = red
+	- maintain = green
+- change success rate calculation to only include n most recent matches in which the issue occurred
+- update occurrence generation to include new relevant columns
+
+issue status and progress is calculated on occurrence entry, so if successes are entered first, and push the issue into "maintain," failures entered later for the same match will not change that status back
