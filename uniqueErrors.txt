@@ -1,0 +1,2 @@
+12/30/16 6:42 AM	edited	TypeError: Cannot set property "14.0" of undefined to "0". (line 177, file "Code")	edit	12/30/16 6:42 AM
+12/29/16 8:10 PM	edited	TypeError: Cannot read property "8.0" from undefined. (line 111, file "Code")	edit	12/29/16 8:10 PM
